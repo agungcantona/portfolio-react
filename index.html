@@ -20,6 +20,21 @@
       content="Web &amp; CRM Developer in Bali. Property websites, CRM automation, SEO and analytics."
     />
 
+    <!-- Pasang tema SEBELUM halaman tampil, supaya tidak "berkedip" gelap→terang.
+         Urutan: pilihan yang tersimpan → setting OS pengunjung → gelap. -->
+    <script>
+      (function () {
+        var theme
+        try {
+          theme = localStorage.getItem('theme')
+        } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        }
+        document.documentElement.dataset.theme = theme
+      })()
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

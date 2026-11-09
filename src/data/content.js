@@ -334,6 +334,8 @@ export const content = {
       projects: "Projects",
       experience: "Experience",
       contact: "Contact",
+      themeLight: "Switch to light mode",
+      themeDark: "Switch to dark mode",
     },
     hero: {
       available: "Open to new opportunities",
@@ -345,6 +347,7 @@ export const content = {
       ctaSecondary: "Download CV",
       stats: [
         { value: "3+", label: "Years experience" },
+        // { value: "5+", label: "Websites" },
         { value: "3.85", label: "GPA / 4.00" },
       ],
     },
@@ -403,6 +406,8 @@ export const content = {
       projects: "Project",
       experience: "Pengalaman",
       contact: "Kontak",
+      themeLight: "Ganti ke mode terang",
+      themeDark: "Ganti ke mode gelap",
     },
     hero: {
       available: "Terbuka untuk peluang baru",
