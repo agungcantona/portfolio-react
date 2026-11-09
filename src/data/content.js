@@ -62,6 +62,7 @@ export const projects = [
       "Yoast / Rank Math",
       "Cloudflare",
     ],
+    inProgress: true,
   },
   {
     id: "ilot",
@@ -139,7 +140,6 @@ export const projects = [
       ],
     },
     tech: ["WordPress", "Elementor", "ACF", "SEO"],
-    inProgress: true,
   },
 ];
 

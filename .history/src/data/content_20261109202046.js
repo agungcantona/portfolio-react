@@ -62,6 +62,7 @@ export const projects = [
       "Yoast / Rank Math",
       "Cloudflare",
     ],
+    inProgress: true,
   },
   {
     id: "ilot",
@@ -123,17 +124,22 @@ export const projects = [
     year: "2026",
     role: { en: "Web Developer", id: "Web Developer" },
     desc: {
-      en: "New property platform, currently in development — information architecture, page structure and the tracking setup are being built out ahead of launch.",
-      id: "Platform properti baru, masih dalam pengembangan — information architecture, struktur halaman, dan setup tracking sedang disiapkan menjelang peluncuran.",
+      en: "Property investment platform covering sales, leasehold and rentals across Canggu, Seminyak, Ubud, Uluwatu and Kerobokan, with listings extending to Jakarta, Lombok and Sumbawa.",
+      id: "Platform investasi properti untuk penjualan, leasehold, dan sewa di Canggu, Seminyak, Ubud, Uluwatu, dan Kerobokan, dengan listing yang meluas sampai Jakarta, Lombok, dan Sumbawa.",
     },
     highlights: {
-      en: ["In progress — sitemap, page structure and analytics foundation"],
+      en: [
+        "Property search with filters for type, ownership status, location, bedrooms and price range",
+        "ROI simulator and property comparison tool for investors",
+        "Listing detail pages with photo galleries, full specs and enquiry CTAs",
+      ],
       id: [
-        "Sedang berjalan — sitemap, struktur halaman, dan fondasi analytics",
+        "Pencarian properti dengan filter tipe, status kepemilikan, lokasi, jumlah kamar, dan rentang harga",
+        "ROI simulator dan fitur perbandingan properti untuk investor",
+        "Halaman detail listing dengan galeri foto, spesifikasi lengkap, dan CTA enquiry",
       ],
     },
     tech: ["WordPress", "Elementor", "ACF", "SEO"],
-    inProgress: true,
   },
 ];
 
