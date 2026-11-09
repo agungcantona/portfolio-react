@@ -345,7 +345,6 @@ export const content = {
       ctaSecondary: "Download CV",
       stats: [
         { value: "3+", label: "Years experience" },
-        { value: "4", label: "Property websites" },
         { value: "3.85", label: "GPA / 4.00" },
       ],
     },
