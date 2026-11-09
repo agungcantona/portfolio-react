@@ -419,7 +419,7 @@ export const content = {
       ctaSecondary: "Unduh CV",
       stats: [
         { value: "3+", label: "Tahun pengalaman" },
-        { value: "4", label: "Website properti" },
+        // { value: "4", label: "Website properti" },
         { value: "3,85", label: "IPK / 4,00" },
       ],
     },
